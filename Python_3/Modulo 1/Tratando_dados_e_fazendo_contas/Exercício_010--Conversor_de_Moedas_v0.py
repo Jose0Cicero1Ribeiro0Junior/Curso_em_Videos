@@ -7,3 +7,4 @@ while True:
         n = int(n)
         break
 print(f'Você tem ${n/5.63:.2f}')
+#Desafio fazer disso um conversor de moedas!!!!!!!!!!!!!!!!!
