@@ -6,4 +6,4 @@ while True:
     if salario.isnumeric() == True:
         salario = int(salario)
         break
-print('O valor do produto é de {:.2f} com desconto de 5% fica por {:.2f}'.format(salario, salario + (salario* 15/100)))
+print('O salário do funcionario é de {:.2f} com aumento de 15% fica  {:.2f}'.format(salario, salario + (salario* 15/100)))
