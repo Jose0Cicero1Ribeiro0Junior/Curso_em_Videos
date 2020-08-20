@@ -7,3 +7,8 @@ while True:
         salario = int(salario)
         break
 print('O salário do funcionario é de {:.2f} com aumento de 15% fica  {:.2f}'.format(salario, salario + (salario* 15/100)))
+
+#Desafio faça um programa que pegue o produto e pergunte se vai pagar a vista o no cartão se for no cartão vai ser em debito credito se for credito em quantas vezes
+#AVISTA DESCONTO
+#DEBITO DESCON
+#PARCELADO ATÉ 3 PREÇO NORMAL ACIMA DE 3 JUROS CRECENTE
