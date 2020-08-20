@@ -2,7 +2,7 @@
 d = 'Descontão de 5% para qualquer produto '
 print(d.center(30, '='))
 while True:
-    preco = str(input('Digite o calor do produto: R$'))
+    preco = str(input('Digite o valor do produto: R$'))
     if preco.isnumeric() == True:
         preco = int(preco)
         break
