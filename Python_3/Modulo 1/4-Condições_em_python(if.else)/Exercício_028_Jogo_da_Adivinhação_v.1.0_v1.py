@@ -1,9 +1,14 @@
 #Exercício Python 028: Escreva um programa que faça o computador "pensar" em um número inteiro entre 0 e 5 e peça para o usuário tentar descobrir qual foi o número escolhido pelo computador. O programa deverá escrever na tela se o usuário venceu ou perdeu.
 from random import randint
-pc_pensa = str(randint(0,5))
-usuario = str(input('Qual número o pc está pensadon? '))
-if pc_pensa == usuario:
-    print('Você acertou!!')
+from time import sleep
+computador = randint(0,5)
+print('-=-'*20)
+print('Vou pensar em um número entre 0 e 5. Tente adivinhar...')
+print('-=-'*20)
+jogador = int(input('Em que númeroeu pensei? '))
+print('PROCESSANDO...')
+sleep(3)
+if jogador == computador:
+    print('PARABENS! Você conseguiu me vencer!')
 else:
-    print('Você Errou!!!!')
-print(f'Você escolheu {usuario}, e eu escolhi o número {pc_pensa}')
+    print('GANHEI! Eu pensei no número {} e não no {}'.format(computador, jogador))
